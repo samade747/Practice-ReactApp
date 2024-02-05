@@ -1,6 +1,36 @@
 .App {
+  position: relative;
   text-align: center;
+  width: 100%;
+  height: 100vh;
 }
+
+.inner-container{
+  position: absolute; 
+  bottom: 0; 
+  margin-bottom: 30px;
+  width: 100%; 
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  background-color: black;
+  color: white;
+  border-radius: 50;
+}
+
+.botton-change{
+
+ display: flex;
+ flex-wrap: wrap;
+ justify-content: center;
+ padding: 10px;
+ color: black;
+ background-color: white;
+ border-radius: auto;
+ gap: 10px;
+
+}
+
 
 .App-logo {
   height: 40vmin;
